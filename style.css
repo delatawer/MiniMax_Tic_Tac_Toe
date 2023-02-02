@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: aliceblue;
+}
+
+header{
+    text-align: center;
+    margin: 50px;
+}
+
+#head{
+    font-size: 50px;
+    font-family: cursive;
+    color: cadetblue;
+}
+
+#result{
+    font-size: 30px;
+    font-family: Verdana;
+    color: chocolate;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+canvas {
+    border: 1px solid dodgerblue;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#game {
+    position: relative;
+    width: 640px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+#tic {
+    position: relative;
+    margin: 0 auto;
+    height: 318px;
+    width: 318px;
+    display: inline-block;
+    float: left;
+}
+
+#rules {
+    position: relative;
+    width: 318px;
+    height: 318px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+
+p {
+    font-size: 26px;
+    margin: 12px;
+    color: orangered;
+    font-family: fantasy;
+}
+
+h2 {
+    font-size: 35px;
+    color: orangered;
+    font-family: fantasy;
+}
+
+button {
+    margin-top: 15px;
+    width: 140px;
+    height: 50px;
+    font-family: fantasy;
+    font-size: 15px;
+    background-color: lightblue;
+    font-weight: bold;
+    border: 1px solid black;
+    color: orangered;
+}
+
+canvas:hover {
+    background-color: dodgerblue;
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
